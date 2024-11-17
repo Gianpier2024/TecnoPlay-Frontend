@@ -12,35 +12,35 @@ let products = [
         name: 'Xbox Series X',
         category: 'Consolas',
         price: 499.99,
-        image: 'https://via.placeholder.com/150'
+        image: 'https://www.falabella.com.pe/cdn-cgi/imagedelivery/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/124503431/width=240,height=240,quality=70,format=webp,fit=pad'
     },
     {
         id: 3,
         name: 'Nintendo Switch OLED',
         category: 'Consolas',
         price: 349.99,
-        image: 'https://via.placeholder.com/150'
+        image: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/20224969_2/w=1500,h=1500,fit=pad'
     },
     {
         id: 4,
         name: 'DualSense Controller',
         category: 'Accesorios',
         price: 69.99,
-        image: 'https://via.placeholder.com/150'
+        image: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/117541651_03/w=1500,h=1500,fit=pad'
     },
     {
         id: 5,
         name: 'God of War Ragnarök',
         category: 'Juegos',
         price: 59.99,
-        image: 'https://via.placeholder.com/150'
+        image: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/113903708_01/w=1500,h=1500,fit=pad'
     },
     {
         id: 6,
         name: 'The Legend of Zelda: TOTK',
         category: 'Juegos',
         price: 59.99,
-        image: 'https://via.placeholder.com/150'
+        image: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/120615915_01/w=1500,h=1500,fit=padd'
     },
     {
         id: 7,
