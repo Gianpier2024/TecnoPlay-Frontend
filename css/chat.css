@@ -1,3 +1,4 @@
+
 .chat-container {
   background: #ffffff;
   border-radius: var(--border-radius);
@@ -19,7 +20,7 @@
 }
 
 .customer-item:hover {
-  background-color: #f8fafc;
+  background-color: #fcfcf8;
 }
 
 .chat-messages {
@@ -40,8 +41,13 @@
 .message.sent {
   background-color: var(--primary-color);
   color: white;
-  margin-left: auto;
+  margin-left: auto;  /* Alinea el mensaje a la derecha */
+  margin-right: 10px; /* Añade un pequeño margen al lado derecho */
   border-bottom-right-radius: 0.25rem;
+  background-color: #007bff;
+  padding-bottom: 20px;
+  max-width: 50%;   /* Limita el ancho del mensaje al 50% del área de chat */
+  word-wrap: break-word; /* Asegura que el texto se ajuste dentro del contenedor */
 }
 
 .message.received {
@@ -68,7 +74,100 @@
 }
 
 .chat-header {
-  background-color: #ffffff;
+  background-color: #007bff;
   padding: 1rem 1.5rem;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #000000;
 }
+
+/*imagenes de los clientes*/
+.chat-header img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*Icono subir imagen -- agregado */
+.chat-input label {
+  background-color: #007bff; /* Color de fondo (puedes cambiarlo) */
+  padding: 5px; /* Ajusta el tamaño del botón */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Para efectos de transición */
+  width: 70px;
+  border: none; /* Eliminar borde */
+  outline: none; /* Asegurarse de que no haya borde de enfoque */
+}
+
+.chat-input label:hover {
+  background-color: #0056b3; /* Color cuando el botón está en hover */
+}
+
+.chat-input label img {
+  width: 38px; /* Ajusta el tamaño del ícono */
+  height: 30px; /* Ajusta el tamaño del ícono */
+  filter: invert(1) brightness(10) contrast(100%); /* Convierte el ícono a blanco */
+}
+/*-------------------------------*/
+
+#imagePreview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#imagePreview p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+#removeImage {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#removeImage:hover {
+    background-color: #c82333;
+}
+
+/* Estilo para la fecha y hora -- Agregado*/
+.message .message-time {
+font-size: 0.75rem;
+color: #ffffff;
+position: absolute;
+padding-bottom: -0px;
+bottom: 2px;
+right: 10px;
+font-style: normal;
+}
+
+.row{
+color: #000000;
+
+}
+
+.mt-3{
+background-color: #ffffff;
+border-radius: 3rem;
+padding: 6px;
+}
+
+/*-------------------------------*/
+
+/* lista de chats */
+.col-md-4{
+background-color:rgb(236, 235, 235);
+color: #000000;
+border-radius: 0.5rem;
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+
+.container-fluid{
+/* pagina general*/
+}
+
